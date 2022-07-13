@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header>Weather Dashboard</header>
+    <aside class="citySearch">
+        <p id="citySearchText">Search for a City:</p>
+        <input type="text" id="userCity" placeholder="Seattle">
+        <button class="button" id="searchBtn">Search</button>
+        <div class="searchHistory">
+            <ul id="savedCities">
+
+            </ul>
+        </div>
+    </aside>
+    <section class="weatherDisplay">
+        <h2 id="city">Atlanta</h2>
+        <p class="specs" id="temp">Temp: </p>
+        <p class="specs" id="wind">Wind: </p>
+        <p class="specs" id="humidity">Humidity: </p>
+        <p class="specs" id="UV">UV Index: </p>
+    </section>
+    <article class="forecast">
+        <h3>5-Day Forecast:</h3>
+        <div class="cardColumn">
+            <p class="cardSpecs" id="temp1">Temp: </p>
+            <p class="cardSpecs" id="wind1">Wind: </p>
+            <p class="cardSpecs" id="humidity1">Humidity: </p>
+        </div>
+        <div class="cardColumn">
+            <p class="cardSpecs" id="temp2">Temp: </p>
+            <p class="cardSpecs" id="wind2">Wind: </p>
+            <p class="cardSpecs" id="humidity2">Humidity: </p>
+        </div>
+        <div class="cardColumn">
+            <p class="cardSpecs" id="temp3">Temp: </p>
+            <p class="cardSpecs" id="wind3">Wind: </p>
+            <p class="cardSpecs" id="humidity3">Humidity: </p>
+        </div>
+        <div class="cardColumn">
+            <p class="cardSpecs" id="temp4">Temp: </p>
+            <p class="cardSpecs" id="wind4">Wind: </p>
+            <p class="cardSpecs" id="humidity4">Humidity: </p>
+        </div>
+        <div class="cardColumn">
+            <p class="cardSpecs" id="temp5">Temp: </p>
+            <p class="cardSpecs" id="wind5">Wind: </p>
+            <p class="cardSpecs" id="humidity5">Humidity: </p>
+        </div>
+    </article>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="script.js"></script>
+
+</html>
